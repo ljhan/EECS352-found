@@ -9,7 +9,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Creative - Start Bootstrap Theme</title>
+    <title>foünd</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -23,7 +23,7 @@
     <link href="vendor/magnific-popup/magnific-popup.css" rel="stylesheet">
 
     <!-- Theme CSS -->
-    <link href="css/creative.min.css" rel="stylesheet">
+    <link href="css/creative.css" rel="stylesheet">
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -43,23 +43,26 @@
                 <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
                     <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
                 </button>
-                <a class="navbar-brand page-scroll" href="#page-top">Start Bootstrap</a>
+                <a class="navbar-brand page-scroll" href="#page-top">foünd</a>
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
                     <li>
-                        <a class="page-scroll" href="#about">About</a>
+                        <a class="page-scroll" href="#problem">PROBLEM</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#services">Services</a>
+                        <a class="page-scroll" href="#method">METHOD</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#portfolio">Portfolio</a>
+                        <a class="page-scroll" href="#process">PROCESS</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#contact">Contact</a>
+                        <a class="page-scroll" href="#results">RESULTS</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#audio">AUDIO</a>
                     </li>
                 </ul>
             </div>
@@ -71,70 +74,178 @@
     <header>
         <div class="header-content">
             <div class="header-content-inner">
-                <h1 id="homeHeading">Your Favorite Source of Free Bootstrap Themes</h1>
+                <h1 id="homeHeading">foünd</h1>
                 <hr>
-                <p>Start Bootstrap can help you build better websites using the Bootstrap CSS framework! Just download your template and start going, no strings attached!</p>
-                <a href="#about" class="btn btn-primary btn-xl page-scroll">Find Out More</a>
+                <p id="description"><strong><a href="http://cs.northwestern.edu/~pardo/courses/eecs352/index.php" target="_blank" style="color: white">EECS 352 Final Project - Northwestern University - Prof. Bryan Pardo</a></strong></p>
+                
+                <div class="email">
+                  <div><strong>Kyle Engelmann</strong></div>
+                  <a href="mailto:kyleengelmann2018@u.northwestern.edu">kyleengelmann2018@u.northwestern.edu</a>
+                </div>
+                  
+                <div class="email">
+                  <div><strong>Alyssa Liu</strong></div>
+                  <a href="mailto:ljhan@u.northwestern.edu">ljhan@u.northwestern.edu</a>
+                </div>
+              
+                <a href="#problem" class="btn btn-primary btn-xl page-scroll">See Our Poster</a>
             </div>
         </div>
     </header>
 
-    <section class="bg-primary" id="about">
+    <section class="bg-primary" id="problem">
         <div class="container">
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2 text-center">
-                    <h2 class="section-heading">We've got what you need!</h2>
+                    <h2 class="section-heading">PROBLEM</h2>
                     <hr class="light">
-                    <p class="text-faded">Start Bootstrap has everything you need to get your new website up and running in no time! All of the templates and themes on Start Bootstrap are open source, free to download, and easy to use. No strings attached!</p>
-                    <a href="#services" class="page-scroll btn btn-default btn-xl sr-button">Get Started!</a>
+                    <p class="text-faded">Given a sample of a non-musical sound, such as a dog barking, our project software will synthesize music. It would use the overtones of a slowed down version of that sample to construct a musical piece that, when sped up, will resemble the input sound.  While there are many programs that take in musical elements to produce music, we think it would be really interesting to create software that can take something non-musical to make something that at least resembles music. Moreover, many songs use random samples from everyday sounds (e.g. water splashes, animal noises) as embellishment. We want to take this a step further by turning such everyday sounds into music itself. It would also be really interesting to see what kind of varying results this one program gives using different inputs.</p>
+<!--                    <a href="#services" class="page-scroll btn btn-default btn-xl sr-button">Get Started!</a>-->
                 </div>
             </div>
         </div>
     </section>
 
-    <section id="services">
-        <div class="container">
+    <section id="method">
+
+      <div class="container">
             <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">At Your Service</h2>
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                    <h2 class="section-heading">METHOD</h2>
                     <hr class="primary">
+                    <p class="text-muted">Our system will take an audio file as an input and slow it down significantly.  It will then use the frequencies of that sample to map onto the 88 keys on a piano.  These notes will be used to create a MIDI reconstruction with a user-specified instrument.  The user can also pick the playback speed.</p>
+<!--                    <a href="#services" class="page-scroll btn btn-default btn-xl sr-button">Get Started!</a>-->
                 </div>
             </div>
         </div>
+    </section>
+      
+    <section class="bg-primary" id="process">
         <div class="container">
             <div class="row">
-                <div class="col-lg-3 col-md-6 text-center">
-                    <div class="service-box">
-                        <i class="fa fa-4x fa-diamond text-primary sr-icons"></i>
-                        <h3>Sturdy Templates</h3>
-                        <p class="text-muted">Our templates are updated regularly so they don't break.</p>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 text-center">
-                    <div class="service-box">
-                        <i class="fa fa-4x fa-paper-plane text-primary sr-icons"></i>
-                        <h3>Ready to Ship</h3>
-                        <p class="text-muted">You can use this theme as is, or you can make changes!</p>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 text-center">
-                    <div class="service-box">
-                        <i class="fa fa-4x fa-newspaper-o text-primary sr-icons"></i>
-                        <h3>Up to Date</h3>
-                        <p class="text-muted">We update dependencies to keep things fresh.</p>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 text-center">
-                    <div class="service-box">
-                        <i class="fa fa-4x fa-heart text-primary sr-icons"></i>
-                        <h3>Made with Love</h3>
-                        <p class="text-muted">You have to make your websites with love these days!</p>
-                    </div>
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                    <h2 class="section-heading">PROCESS</h2>
+                    <hr class="light">
+                    <p class="text-faded">Our system will take a .wav audio file as an input.  We focused on two types of audio - dog barks and a recording of the original “We Apologise.”  Our software will then cut off everything past the first 5 seconds and slow the input file down to 10x the length using the PaulStretch algorithm and take the constant-q transform (CQT) of the result using the libROSA library.  The CQT will then be remapped to the frequencies matching the 88 piano keys.  It will then use a user specified instrument to build the spectrum of the input by using pyFluidSynth to create a MIDI note of matching fundamental frequency for each note.  Using the user specified magnitude threshold, magnitude results from the CQT will be converted to note velocities.  Since MIDI notes at higher pitches are quieter than those of lower pitches, the velocities are lowered linearly per key, descending.  88 pyFluidSynth channels are created with initial volume 0, with a maximum velocity note on event in each.  For each CQT time frame, the channel’s velocity is set for each note to the correct volume using the calculated velocities, and recorded in an array.  The MIDI notes will be created using a user specified S2F soundfont. Finally, PaulStretch is used to bring the reconstructed audio up to the playback speed chosen by the user (from 10x slower than the original to the speed of the original).  To test results, the cross similarity matrix between the input audio and the MIDI audio will be computed.  In addition, users can make qualitative comparisons between the input and output audio.  The original “We Apologise” audio and choral reconstruction are used as a baseline to make these qualitative comparisons.</p>
+<!--                    <a href="#services" class="page-scroll btn btn-default btn-xl sr-button">Get Started!</a>-->
                 </div>
             </div>
         </div>
     </section>
 
+    <section id="results">
+
+      <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                    <h2 class="section-heading">RESULTS</h2>
+                    <hr class="primary">
+                    <p class="text-muted">Our system works somewhat well for a few samples but not as well for others.  It worked reasonably well on the dog howl, as well as on the original “We Apologise.”  While our results were not as smooth or intelligible as the original choral reconstruction, experimentation with the parameters and selected soundfont improved our results.  As seen in the figures below, the CQT of the output MIDI reconstruction has a very similar shape to that of the CQT of the input audio.  However, there is no strong diagonal in the cross similarity matrix between the input and output.  This signals there is no strong resemblance between the input and output.  Furthermore, during user survey, the output was only recognizable to people who know what the input is and are listening for it.</p>
+<!--                    <a href="#services" class="page-scroll btn btn-default btn-xl sr-button">Get Started!</a>-->
+                </div>
+              
+              <figure>
+                <img src="img/velocity.png" alt="Velocity" width="304" height="228">
+                <figcaption>Fig. 1 - Note velocities calculated from CQT log magnitude results</figcaption>
+              </figure>
+              
+              <div id="inline-figures-div">
+                <figure class="inline-figures">
+                  <img src="img/input-cqt.png" alt="Input CQT" width="304" height="228">
+                  <figcaption>Fig. 2 - CQT of the slowed down input audio</figcaption>
+                </figure>
+
+                <figure class="inline-figures">
+                  <img src="img/output-cqt.png" alt="Output CQT" width="304" height="228">
+                  <figcaption>Fig. 3 - CQT of the MIDI reconstruction</figcaption>
+                </figure>
+              </div>
+              
+              <figure>
+                <img src="img/cross-sim.png" alt="Cross Similarity Matrix" width="304" height="228">
+                <figcaption>Fig. 4 - Cross Similarity matrix of the input and output</figcaption>
+              </figure>
+              
+            </div>
+        </div>
+    </section>
+  
+  <section class="bg-primary" id="audio">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                    <h2 class="section-heading">AUDIO</h2>
+                    <hr class="light">
+                  
+                    <div class="audio-block"> <!-- ########################################## -->
+                      <h3>"We Apologise"</h3>
+                      <p class="text-faded">Original "We Apologise" audio</p>
+                      <audio controls>
+                        <source src="audio/we-apologize.wav" type="audio/wav">
+                        Original "We Apologise" audio
+                      </audio>
+                      <p></p>
+
+                      <p class="text-faded">Slowed down input</p>
+                      <audio controls>
+                        <source src="audio/origslow.wav" type="audio/wav">
+                        Slowed down input
+                      </audio>
+                      <p></p>
+
+                      <p class="text-faded">Slow MIDI reconstruction</p>
+                      <audio controls>
+                        <source src="audio/midislow.wav" type="audio/wav">
+                        Slow MIDI reconstruction
+                      </audio>
+                      <p></p>
+
+                      <p class="text-faded">Sped up MIDI reconstruction</p>
+                      <audio controls>
+                        <source src="audio/midifast.wav" type="audio/wav">
+                        Sped up MIDI reconstruction
+                      </audio>
+                      <p></p>
+                    </div>
+                  
+                    <div class="audio-block"> <!-- ########################################## -->
+                      <h3>Dog Howl</h3>
+                      <p class="text-faded">Original dog howl audio</p>
+                      <audio controls>
+                        <source src="audio/we-apologize.wav" type="audio/wav">
+                        Original dog howl audio
+                      </audio>
+                      <p></p>
+
+                      <p class="text-faded">Slowed down input</p>
+                      <audio controls>
+                        <source src="audio/origslow.wav" type="audio/wav">
+                        Slowed down input
+                      </audio>
+                      <p></p>
+
+                      <p class="text-faded">Slow MIDI reconstruction</p>
+                      <audio controls>
+                        <source src="audio/midislow.wav" type="audio/wav">
+                        Slow MIDI reconstruction
+                      </audio>
+                      <p></p>
+
+                      <p class="text-faded">Sped up MIDI reconstruction</p>
+                      <audio controls>
+                        <source src="audio/midifast.wav" type="audio/wav">
+                        Sped up MIDI reconstruction
+                      </audio>
+                      <p></p>
+                    </div>
+                  
+<!--                    <a href="#services" class="page-scroll btn btn-default btn-xl sr-button">Get Started!</a>-->
+                </div>
+            </div>
+        </div>
+    </section>
+
+<!--
     <section class="no-padding" id="portfolio">
         <div class="container-fluid">
             <div class="row no-gutter popup-gallery">
@@ -240,7 +351,9 @@
             </div>
         </div>
     </aside>
+-->
 
+<!--
     <section id="contact">
         <div class="container">
             <div class="row">
@@ -260,6 +373,7 @@
             </div>
         </div>
     </section>
+-->
 
     <!-- jQuery -->
     <script src="vendor/jquery/jquery.min.js"></script>
